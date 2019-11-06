@@ -1,0 +1,16 @@
+﻿
+
+<div class="text-center">
+    <h4>Random passcode (passcode #@ViewBag.Count)</h4>
+    <div>
+        <div>
+            <h1>@ViewBag.Random</h1>
+        </div>
+        <form asp-action="Create" asp-controller="Home" method="POST">
+            <button class="btn btn-danger" type="submit">Generate</button>
+
+        </form>
+    </div>
+    
+    
+</div>
